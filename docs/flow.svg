@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200" role="img" aria-label="CodeBuddy 用量分析器使用流程">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#ec4899"/>
+    </marker>
+    <style>
+      .box { fill:#ffffff; stroke:#ec4899; stroke-width:1.5; }
+      .num { fill:#ec4899; font:bold 15px "Segoe UI", sans-serif; }
+      .t   { fill:#1f2430; font:bold 13px "Microsoft YaHei", "Segoe UI", sans-serif; }
+      .s   { fill:#6b7280; font:11px "Microsoft YaHei", "Segoe UI", sans-serif; }
+      .ln  { stroke:#ec4899; stroke-width:2; }
+    </style>
+  </defs>
+
+  <!-- Step 1 -->
+  <rect class="box" x="10" y="55" width="170" height="90" rx="12"/>
+  <text class="num" x="26" y="80">1</text>
+  <text class="t" x="44" y="80">启动程序</text>
+  <text class="s" x="26" y="104">双击 start.bat</text>
+  <text class="s" x="26" y="122">或 python app.py</text>
+
+  <line class="ln" x1="185" y1="100" x2="213" y2="100" marker-end="url(#arrow)"/>
+
+  <!-- Step 2 -->
+  <rect class="box" x="220" y="55" width="170" height="90" rx="12"/>
+  <text class="num" x="236" y="80">2</text>
+  <text class="t" x="254" y="80">导入 JSON</text>
+  <text class="s" x="236" y="104">选择 / 添加文件</text>
+  <text class="s" x="236" y="122">支持多文件</text>
+
+  <line class="ln" x1="395" y1="100" x2="423" y2="100" marker-end="url(#arrow)"/>
+
+  <!-- Step 3 -->
+  <rect class="box" x="430" y="55" width="170" height="90" rx="12"/>
+  <text class="num" x="446" y="80">3</text>
+  <text class="t" x="464" y="80">查看统计</text>
+  <text class="s" x="446" y="104">汇总 / 各文件明细</text>
+  <text class="s" x="446" y="122">双击看对话</text>
+
+  <line class="ln" x1="605" y1="100" x2="633" y2="100" marker-end="url(#arrow)"/>
+
+  <!-- Step 4 -->
+  <rect class="box" x="640" y="55" width="150" height="90" rx="12"/>
+  <text class="num" x="656" y="80">4</text>
+  <text class="t" x="674" y="80">导出报告</text>
+  <text class="s" x="656" y="104">Word / PDF</text>
+  <text class="s" x="656" y="122">/ Markdown</text>
+</svg>

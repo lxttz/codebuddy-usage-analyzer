@@ -1,0 +1,17 @@
+# 个人对话导出数据（含敏感聊天内容，且体积较大，不纳入版本库）
+data/*.json
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 操作系统 / 编辑器产生的临时文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 本地导出的报告产物（按需自行保留）
+用量报告_*.docx
+用量报告_*.pdf
+用量报告_*.md
